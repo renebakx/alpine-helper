@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.21
 ENV KUSTOMIZE_VER=5.4.3
 LABEL maintainer='Rene Bakx'
 RUN apk -U upgrade && apk update && apk add --no-cache rsync sed less bash curl git openssh jq \
